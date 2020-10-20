@@ -1,6 +1,6 @@
 ﻿{
-    "connectionString": "mongodb://localhost/node-mongo-signup-verification-api",
-    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING",
+    "connectionString": "mongodb://tenderd:KA1rzCy6ogQlfgu7yRMIEie9UuFDvc8GNioQrE0z3v9qF52098dkpU24qWeoHxD5FJ9m1uBzzVbq2Z7au9SOIA==@tenderd.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@tenderd@",
+    "secret": "8e61aa9f-db89-49d4-97bb-3b73e159b0f0",
     "emailFrom": "info@node-mongo-signup-verification-api.com",
     "smtpOptions": {
         "host": "smtp.ethereal.email",
