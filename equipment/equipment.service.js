@@ -9,9 +9,7 @@ async function insertEquipment(params, origin) {
     const equipment = new db.Equipment(params);
     console.log('equipment' , equipment);
     // save account
-   await equipment.save();
-    console.log('equipment' , equipment.save());
-    
+   await equipment.save();    
 }
 
 

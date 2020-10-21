@@ -3,11 +3,12 @@
     "secret": "8e61aa9f-db89-49d4-97bb-3b73e159b0f0",
     "emailFrom": "pradeep.hassan03@gmail.com",
     "smtpOptions": {
-        "host": "smtp.ethereal.email",
-        "port": 587,
+        "host": "smtp.gmail.com",
+        "port": 465,
+        "secure": true,
         "auth": {
-            "user": "treva.will49@ethereal.email",
-            "pass": "qwzpSh4gT1k2mJCFnq"
+            "user": "pradeep.hassan03@gmail.com",
+            "pass": "pradeep@123"
         }
     }
 }
