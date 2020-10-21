@@ -4,13 +4,13 @@ module.exports = {
     insertEquipment
 };
 
-function insertEquipment(params, origin) {
+async function insertEquipment(params, origin) {
 
     const equipment = new db.Equipment(params);
     console.log('equipment' , equipment);
     // save account
-    equipment.save();
-
+   await equipment.save();
+    console.log('equipment' , equipment.save());
     
 }
 
